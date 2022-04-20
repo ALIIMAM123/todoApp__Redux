@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.main-div {
+  height: 100vh;
+  background-color: rgb(198, 250, 232);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.child-div {
+  flex-direction: column;
+  margin-top: 95px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 58px;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+input {
+  min-width: 350px;
+
+  height: 5px;
+  padding: 15px 2px;
+  font-size: 20px;
+
+  color: rgb(58, 57, 57);
+  background-color: #fff;
+
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.todo-btn {
+  width: 10px;
+}
+
+.fa {
+  margin-left: -20px;
+  cursor: pointer;
+
+  z-index: 10;
+  background-color: #fff;
+
+  color: #666;
+
+  font-size: 20px;
+}
+.fa-plus {
+  color: black;
+}
+
+.fa-trash {
+  color: rgb(2, 49, 2);
+}
+
+.fa:hover {
+  color: red;
+}
+
+.showItems {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.eachItem {
+  background: #fff;
+
+  padding: 10px 5px;
+
+  border-radius: 12px;
+  margin-bottom: 15px;
+
+  min-width: 80px;
+
+  background: rgb(5, 17, 5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.showItems .eachItem h3 {
+  padding-left: 15px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.eachItem:hover h3 {
+  color: rgb(55, 126, 116);
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 160px;
+  text-transform: uppercase;
+  width: 100%;
+  font-weight: bold;
+}
+
+.deleteAll span {
+  margin: 0 auto;
+}
+
+.deleteAll:hover {
+  background-color: rgb(253, 7, 7);
+}
